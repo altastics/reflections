@@ -1,0 +1,23 @@
+diff file_old file_new
+to see the lines, in which a difference of these to datas exist
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+ - Pro: You can go over every change you make, before updating 
+        it to a new version
+ - Con: It takes more time and effort 
+
+ How can you use the commands git log and git diff to view the history of files?
+
+  - First type git log to see all to commits made to the file, 
+    when you can choose one 2 commits and use git diff commit1 commit2, to see the changes made to the file
+
+subl .bash_profile to open Sublime trough Git
+
+mv to move files
+
+git clone [URL-Link] to clone a Repository
+
+git copy [URL-Link] to copy one (it's better to clone, because it clone also clones the history of changes)
+
+git log to view history
