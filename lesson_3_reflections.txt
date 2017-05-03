@@ -10,7 +10,14 @@ What happens when you initialize a repository? Why do you need to do it?
    you need for a project. It's for organizing reasons and to be able to easily share it with others.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
+ 
  - In the staging area, you can still change your files,
    before offering them to others, who have access to the repository.
 
 git commit -m "Commit message"
+
+How can you use the staging area to make sure you have one commit per logical change?
+ 
+ - By using git diff --staged to compare it with the recent 
+   commit on the repository or simple using git diff to 
+   compare it with the working directory
