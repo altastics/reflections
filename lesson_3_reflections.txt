@@ -8,3 +8,8 @@ git status to view the status, shows which files changed since the last commit
 What happens when you initialize a repository? Why do you need to do it?
  - You get a working space, where you can put all your files, 
    you need for a project. It's for organizing reasons and to be able to easily share it with others.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+ - In the staging area, you can still change your files,
+   before offering them to others, who have access to the repository.
+   
